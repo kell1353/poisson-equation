@@ -1,0 +1,15 @@
+&box
+	length = 5.0, 5.0
+/
+&charge_distribution
+	rho_zero = 1.0,
+	center = 2.5, 2.5,
+	width = 1.0, 1.0
+/
+&sampling
+	n_max = 101,
+	n_samples = 97
+/
+&output
+	output_file = 'box_parameters.dat'
+/
